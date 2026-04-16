@@ -132,9 +132,78 @@ export default function Home({ featuredProducts }) {
           </div>
         </div>
       </section>
+
+      {/* Nasza Filozofia */}
+      <section className="py-32 bg-background border-t border-border/20 text-center px-6">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-[10px] uppercase font-sans tracking-[0.3em] text-foreground/50 mb-8">Nasza Filozofia</h2>
+          <p className="text-2xl md:text-4xl font-serif font-light leading-relaxed text-foreground/90">
+            Wierzymy w modę, która przetrwa próbę czasu. Zrównoważony rozwój to nie trend, to nasz rygor. Każdy szew, każdy skrawek materiału jest świadomym manifestem przeciwko jednorazowości.
+          </p>
+        </div>
+      </section>
+
+      {/* Opinie Klientów (Flex Snap Slider) */}
+      <section className="py-32 bg-foreground text-background">
+        <div className="container mx-auto px-6 lg:px-12">
+          <h2 className="text-[10px] uppercase font-sans tracking-[0.3em] text-background/50 mb-16 text-center">Opinie Klientów</h2>
+          <div className="flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-8 pb-8">
+            {/* Testimonial 1 */}
+            <div className="snap-center shrink-0 w-full md:w-[600px] border border-background/20 p-12 text-center flex flex-col justify-center">
+              <p className="text-xl md:text-3xl font-serif font-light leading-relaxed mb-8">
+                &quot;Jakość materiałów przerosła moje oczekiwania. Ten płaszcz to dzieło sztuki samo w sobie.&quot;
+              </p>
+              <p className="text-[10px] uppercase font-sans tracking-[0.2em] text-background/60">Ewa, Warszawa</p>
+            </div>
+            {/* Testimonial 2 */}
+            <div className="snap-center shrink-0 w-full md:w-[600px] border border-background/20 p-12 text-center flex flex-col justify-center">
+              <p className="text-xl md:text-3xl font-serif font-light leading-relaxed mb-8">
+                &quot;Minimalizm, którego szukałam latami. Prawdziwy luksus jest cichy.&quot;
+              </p>
+              <p className="text-[10px] uppercase font-sans tracking-[0.2em] text-background/60">Magdalena, Kraków</p>
+            </div>
+            {/* Testimonial 3 */}
+            <div className="snap-center shrink-0 w-full md:w-[600px] border border-background/20 p-12 text-center flex flex-col justify-center">
+              <p className="text-xl md:text-3xl font-serif font-light leading-relaxed mb-8">
+                &quot;Biżuteria wygląda niesamowicie. Perfekcyjne detale.&quot;
+              </p>
+              <p className="text-[10px] uppercase font-sans tracking-[0.2em] text-background/60">Anna, Poznań</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Instagram Feed */}
+      <section className="bg-background py-32">
+        <div className="text-center mb-16">
+          <h2 className="text-[10px] uppercase font-sans tracking-[0.3em] text-foreground/50">Follow @VELOUR_STUDIO</h2>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-1">
+          <div className="relative aspect-square"><Image src="https://images.unsplash.com/photo-1512413913426-ba043ea1385f?q=80&w=600" fill className="object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Insta 1" /></div>
+          <div className="relative aspect-square"><Image src="https://images.unsplash.com/photo-1549439602-43ebca2327af?q=80&w=600" fill className="object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Insta 2" /></div>
+          <div className="relative aspect-square"><Image src="https://images.unsplash.com/photo-1596455607563-ad6193f76b17?q=80&w=600" fill className="object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Insta 3" /></div>
+          <div className="relative aspect-square"><Image src="https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=600" fill className="object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Insta 4" /></div>
+        </div>
+      </section>
+
+      {/* Newsletter */}
+      <section className="py-32 bg-background border-t border-border/20">
+        <div className="container mx-auto px-6 text-center max-w-2xl">
+          <h2 className="text-3xl md:text-5xl font-serif font-light mb-6">Manifest Zmiany</h2>
+          <p className="text-xs font-sans text-foreground/60 mb-12 tracking-wide leading-relaxed">
+            Zapisz się do newslettera, aby jako pierwszy dowiadywać się o przedpremierach limitowanych edycji. <strong>Otrzymaj 10% rabatu na pierwsze zakupy.</strong>
+          </p>
+          <form className="flex flex-col sm:flex-row gap-4 justify-center" onSubmit={(e) => e.preventDefault()}>
+            <input type="email" placeholder="Wprowadź adres e-mail" className="bg-transparent border-b border-foreground/30 px-4 py-3 focus:outline-none focus:border-foreground text-sm w-full sm:w-80 transition-colors" />
+            <button className="bg-foreground text-background px-8 py-3 text-[10px] uppercase font-sans tracking-[0.2em] hover:bg-foreground/80 transition-colors shrink-0">
+              Subskrybuj
+            </button>
+          </form>
+        </div>
+      </section>
       
       {/* Spacer to prove the scroll smooth feeling */}
-      <div className="h-[25vh] bg-background"></div>
+      <div className="h-[10vh] bg-background"></div>
     </>
   );
 }

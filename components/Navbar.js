@@ -39,9 +39,9 @@ export default function Navbar() {
 
           <div className="flex items-center space-x-6 text-foreground/80">
             <ThemeToggle />
-            <button aria-label="Profile" className="hover:text-foreground transition-colors">
+            <Link href="/moje-konto" aria-label="Profil" className="hover:text-foreground transition-colors">
               <User size={18} strokeWidth={1.2} />
-            </button>
+            </Link>
             <button aria-label="Cart" className="hover:text-foreground transition-colors relative">
               <ShoppingBag size={18} strokeWidth={1.2} />
               <span className="absolute -top-1 -right-2 text-[9px] bg-foreground text-background w-3.5 h-3.5 rounded-full flex items-center justify-center font-medium">
