@@ -1,0 +1,175 @@
+{
+  "products": [
+    {
+      "id": "prod_1",
+      "title": "Minimalist Silk Blouse",
+      "handle": "minimalist-silk-blouse",
+      "description": "A quiet luxury essential. Crafted from 100% organic silk, this blouse offers a fluid drape and effortless elegance for any occasion.",
+      "price": 285.00,
+      "compareAtPrice": 350.00,
+      "images": [
+        "https://images.unsplash.com/photo-1596455607563-ad6193f76b17?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?q=80&w=600&auto=format&fit=crop"
+      ],
+      "categories": ["Nowości", "Kolekcja Premium"],
+      "variants": [
+        { "size": "S", "color": "Ivory" },
+        { "size": "M", "color": "Ivory" },
+        { "size": "L", "color": "Ivory" }
+      ],
+      "metadata": {
+        "material": "100% Organic Silk",
+        "care": "Dry clean only"
+      }
+    },
+    {
+      "id": "prod_2",
+      "title": "Tailored Wool Coat",
+      "handle": "tailored-wool-coat",
+      "description": "Structured yet soft, this tailored wool coat features a timeless silhouette with deep pockets and a hidden button placket.",
+      "price": 890.00,
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1510832198440-a52376950479?q=80&w=600&auto=format&fit=crop"
+      ],
+      "categories": ["Nowości"],
+      "variants": [
+        { "size": "S", "color": "Ebony" },
+        { "size": "M", "color": "Ebony" },
+        { "size": "L", "color": "Ebony" }
+      ],
+      "metadata": {
+        "material": "100% Virgin Wool",
+        "care": "Dry clean only"
+      }
+    },
+    {
+      "id": "prod_3",
+      "title": "Pleated Midi Dress",
+      "handle": "pleated-midi-dress",
+      "description": "An ethereal pleated midi dress that moves beautifully with every step. Perfect for evening affairs or elevated daytime wear.",
+      "price": 420.00,
+      "compareAtPrice": 480.00,
+      "images": [
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1586525198428-225f6f12cff5?q=80&w=600&auto=format&fit=crop"
+      ],
+      "categories": ["Sukienki", "Kolekcja Premium"],
+      "variants": [
+        { "size": "S", "color": "Sage" },
+        { "size": "M", "color": "Sage" },
+        { "size": "L", "color": "Sage" }
+      ],
+      "metadata": {
+        "material": "95% Silk, 5% Elastane",
+        "care": "Hand wash cold or dry clean"
+      }
+    },
+    {
+      "id": "prod_4",
+      "title": "Cashmere Knit Sweater",
+      "handle": "cashmere-knit-sweater",
+      "description": "Wrap yourself in luxury with this ultra-soft, medium-weight cashmere sweater. Features a relaxed fit and ribbed cuffs.",
+      "price": 550.00,
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1574291814206-363acdefbcfa?q=80&w=600&auto=format&fit=crop"
+      ],
+      "categories": ["Nowości", "Kolekcja Premium"],
+      "variants": [
+        { "size": "S", "color": "Oatmeal" },
+        { "size": "M", "color": "Oatmeal" }
+      ],
+      "metadata": {
+        "material": "100% Mongolian Cashmere",
+        "care": "Hand wash cold, lay flat to dry"
+      }
+    },
+    {
+      "id": "prod_5",
+      "title": "Leather Crossbody Bag",
+      "handle": "leather-crossbody-bag",
+      "description": "Sleek and structured, this minimalist crossbody bag is handcrafted from full-grain Italian leather with subtle gold-tone hardware.",
+      "price": 340.00,
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=600&auto=format&fit=crop"
+      ],
+      "categories": ["Akcesoria"],
+      "variants": [
+        { "size": "One Size", "color": "Black" },
+        { "size": "One Size", "color": "Tan" }
+      ],
+      "metadata": {
+        "material": "100% Full-Grain Leather",
+        "care": "Wipe clean with a damp cloth"
+      }
+    },
+    {
+      "id": "prod_6",
+      "title": "Wide-Leg Linen Trousers",
+      "handle": "wide-leg-linen-trousers",
+      "description": "Breathe easy in these high-waisted, wide-leg linen trousers. Detailed with front pleats and side seam pockets.",
+      "price": 210.00,
+      "compareAtPrice": 250.00,
+      "images": [
+        "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=600&auto=format&fit=crop"
+      ],
+      "categories": ["Nowości"],
+      "variants": [
+        { "size": "S", "color": "White" },
+        { "size": "M", "color": "White" },
+        { "size": "L", "color": "White" }
+      ],
+      "metadata": {
+        "material": "100% European Linen",
+        "care": "Machine wash cold on gentle cycle"
+      }
+    },
+    {
+      "id": "prod_7",
+      "title": "Draped Evening Gown",
+      "handle": "draped-evening-gown",
+      "description": "A show-stopping silhouette featuring expert draping and an open back. Designed for unforgettable nights.",
+      "price": 1200.00,
+      "compareAtPrice": 1450.00,
+      "images": [
+        "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1572804013309-84a8f142ce4c?q=80&w=600&auto=format&fit=crop"
+      ],
+      "categories": ["Sukienki", "Kolekcja Premium"],
+      "variants": [
+        { "size": "S", "color": "Midnight Blue" },
+        { "size": "M", "color": "Midnight Blue" }
+      ],
+      "metadata": {
+        "material": "Heavyweight Silk Crepe",
+        "care": "Dry clean only"
+      }
+    },
+    {
+      "id": "prod_8",
+      "title": "Sculptural Gold Cuff",
+      "handle": "sculptural-gold-cuff",
+      "description": "A bold, modern statement piece. This sculptural cuff bracelet is plated in 18k gold and features an organic, asymmetrical design.",
+      "price": 185.00,
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599643478524-fb66f7f240fc?q=80&w=600&auto=format&fit=crop"
+      ],
+      "categories": ["Akcesoria"],
+      "variants": [
+        { "size": "One Size", "color": "Gold" }
+      ],
+      "metadata": {
+        "material": "18k Gold Plated Brass",
+        "care": "Avoid contact with water and perfume"
+      }
+    }
+  ]
+}
